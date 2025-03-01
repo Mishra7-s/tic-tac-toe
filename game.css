@@ -1,0 +1,47 @@
+body {
+  background-color: #371902;
+}
+#box {
+  height: 100px;
+  width: 100px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 2px solid rgb(225, 225, 225);
+  border-radius: 10px;
+  box-shadow: beige;
+  font-size: 60px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: solid;
+}
+
+#class {
+  display: grid;
+  grid-template-columns: repeat(3, 100px); /* 3 columns */
+  gap: 10px; /* Space between the boxes */
+  justify-content: center; /* Centers the grid horizontally */
+}
+
+#reset {
+  height: 50px;
+  width: 100px;
+  justify-content: center;
+  margin-left: 660px;
+  margin-top: 50px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  font-weight: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  font-style: initial;
+}
